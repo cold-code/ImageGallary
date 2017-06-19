@@ -1,0 +1,118 @@
+
+body {
+    color: #f58;
+    background-color: #eeeee0;
+}
+a:link {
+    color: #33A870;
+    background-color: #eeeee0;
+}
+article a:visited,
+article a:link {
+    color: #33a870;
+    background-color: #eeeee0;
+}
+
+header,
+a:hover,
+header nav {
+    color: #eeeee0;
+    background-color: #33A870;
+}
+
+article {
+    color: #33a870;
+    background-color: #eeeee0;
+}
+
+#aside li {
+    color: #fff;
+    background-color: #33a870;
+    border-color: #eeeee0;
+}
+
+#aside li:hover {
+    color: #33a870;
+    background-color: #eb6;
+}
+
+header nav ul {
+    border-color: #99a;
+}
+header nav a:link,header nav a:visited {
+    color: #eef;
+    background-color: transparent;
+    border-color: #99a;
+}
+header nav a:hover {
+    color: #33a870;
+    background-color: #eb6;
+}
+header nav a:active {
+    color: #33a870;
+    background-color: #eeeee0;
+}
+article img {
+    border-color: #ba9;
+    outline-color: #dcb;
+}
+#imagegallery a {
+    background-color: transparent;
+}
+
+#leftbtn,#rightbtn {
+    border-color: #33a870;
+    background: rgba(0,0,0,0.5);
+    color: #33a870;
+}
+
+#aside  a:link,
+#aside  a:visited,
+#aside  a:hover,
+#aside  a:active{
+    color: #eeeee0;
+    background-color: #33a870;
+}
+#aside  li.here {
+    background: #eb6;
+}
+#aside  li.here a{
+    color: #33a870;
+    background-color: #eeeee0;
+}
+
+
+
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+    color: #33a870;
+    background-color: #eeeee0;
+}
+
+.submit {
+    color: #eeeee0;
+    border: .1em solid #33a870;
+    background-color: #33a870;
+}
+
+td {
+    padding: .5em 3em;
+}
+th {
+    color: #edc;
+    background-color: #455;
+}
+tr td {
+    color: #223;
+    background-color: #eb6;
+}
+tr.odd td {
+    color: #223;
+    background-color: #ec8;
+}
+tr.highlight td {
+    color: #223;
+    background-color: #cba;
+}

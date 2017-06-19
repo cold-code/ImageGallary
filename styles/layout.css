@@ -1,0 +1,267 @@
+section, article, nav {
+    display:block;
+}
+*{
+    padding:0;
+    margin:0;
+}
+header img{
+    width: 60%;
+    height: 50%;
+    z-index: 11;
+}
+main {
+    max-width: 80%;
+    margin: auto;
+}
+body {
+    margin:0 20%;
+    max-width:100em;
+}
+
+header nav {
+    width: 100%;
+    height: 2.5em;
+}
+header nav ul {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+header nav li {
+    display: inline;
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+}
+header nav li a {
+    display: inline-block;
+    height: 2.5em;
+    width: 6em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+header nav a:hover {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#city {
+    width: 100%;
+}
+
+#city li {
+    display: inline-block;
+}
+
+#city li a {
+    display: inline-block;
+    float: left;
+    padding: 1em;
+}
+
+p {
+    line-height: 2.5em;
+    text-indent: 2em;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin: 1em;
+    display: inline-block;
+}
+
+article {
+    position: relative;
+    height: 80%;
+    border:.1em solid;
+    border-top-width:0;
+    padding:2em 10%;
+    line-height:1.8em;
+}
+
+
+aside {
+    position: absolute;
+    top: 22%;
+    right: 0;
+    width: 6em;
+    height: 60%;
+
+
+}
+
+#aside li {
+    float: right;
+    width: 4.5em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding: .5em;
+    border-bottom: .2em solid;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#aside li a {
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+article a:link {
+    font-style: italic;
+}
+
+article img {
+    border:.1em solid;
+    outline:.1em solid;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow label {
+    text-align: right;
+}
+
+div.tableRow label,
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+}
+
+fieldset {
+    width: 90%;
+    padding: 1em;
+}
+
+#sup {
+    float: left;
+    line-height: 100%;
+}
+
+.submit {
+    width: 10em;
+}
+
+#slideshow {
+    width:150px;
+    height:150px;
+    position:relative;
+    overflow:hidden;
+}
+#preview {
+    position:absolute;
+    border-width:0;
+    outline-width:0;
+}
+#frame {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:99;
+    border-width:0;
+    outline-width:0;
+}
+
+section{
+    padding-bottom: 1em;
+    border-bottom: 1px dotted #33a870;
+}
+
+#imagegallery{
+    position: relative;
+    width: 80%;
+    height: 8em;
+    overflow: hidden;
+}
+
+#left,#right {
+    width:2em;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#leftbtn,#rightbtn {
+    display: none;
+    width: 1.7em;
+    height: 1.7em;
+    margin-top: 3em;
+    border: 2px solid;
+    font-weight:bold;
+    line-height: 1.7em;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#imagegallery ul{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10000%;
+    height: 8em;
+}
+
+#imagegallery .on {
+    display: block;
+}
+
+#imagegallery ul li {
+    float: left;
+    width: 8em;
+    height:8em;
+}
+
+#imagegallery img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#placeholder {
+    width: 80%;
+    height: 80%;
+}
+
+dl {
+    overflow: hidden;
+}
+dt {
+    float: left;
+}
+dd {
+    float:left;
+}
