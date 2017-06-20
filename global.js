@@ -104,12 +104,12 @@ function prepareSlideshow() {
   var slideshow = document.createElement("div");
   slideshow.setAttribute("id","slideshow");
   var frame = document.createElement("img");
-  frame.setAttribute("src","../images/frame.gif");
+  frame.setAttribute("src","images/frame.gif");
   frame.setAttribute("alt","");
   frame.setAttribute("id","frame");
   slideshow.appendChild(frame);
   var preview = document.createElement("img");
-  preview.setAttribute("src","../images/slideshow.gif");
+  preview.setAttribute("src","images/slideshow.gif");
   preview.setAttribute("alt","a glimpse of what awaits you");
   preview.setAttribute("id","preview");
   slideshow.appendChild(preview);
@@ -221,7 +221,7 @@ function preparePlaceholder() {
   if (!document.getElementById("imagegallery")) return false;
   var placeholder = document.createElement("img");
   placeholder.setAttribute("id","placeholder");
-  placeholder.setAttribute("src","../images/tourism/photos/B10-1.jpg");
+  placeholder.setAttribute("src","images/tourism/photos/B10-1.jpg");
   placeholder.setAttribute("alt","my image gallery");
   var description = document.createElement("p");
   description.setAttribute("id","description");
